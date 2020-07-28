@@ -20,7 +20,7 @@ cargo run
 ```
 
 The server will just accept one request due to the educative focus.
-If you want to test more request change the `.take(2)` from the main function in `src/bin/main.rs` as the following code:
+If you want to test more request remove the `.take(2)` from the main function in `src/bin/main.rs` as the following code:
 
 ```Rust
 fn main() {
