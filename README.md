@@ -2,8 +2,8 @@
 
 This is a little practice example of a multithreaded web server implemented using the Rust Programming Language.
 
-## Installation
-To install this web server and try it, it is required [Cargo](https://doc.rust-lang.org/stable/cargo/) to be installed.
+## Usage
+To use this web server and try it, it is required [Cargo](https://doc.rust-lang.org/stable/cargo/) to be installed.
 
 First, clone this repository
 ```
@@ -31,7 +31,7 @@ fn main() {
 }
 ```
 
-You gan interact with three request:
+You can interact with three request:
 * GET /
 * GET /sleep
 * Other (this returns back a 404 NOT FOUND error). e.g.: `127.0.0.1/test`
