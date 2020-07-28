@@ -50,4 +50,4 @@ The `/sleep` route will sleep the current thread 5 seconds, so then thanks to th
 
 #### Notes
 
-- This is a example and it does not implement all robustness required for a production web server.
+- This is an example and it does not implement all robustness required for a production web server.
